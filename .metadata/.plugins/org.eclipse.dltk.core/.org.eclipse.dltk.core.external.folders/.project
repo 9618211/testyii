@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.dltk.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>E:/wamp/www/testyii/.metadata/.plugins/org.eclipse.php.core/__language__/1d56e972</location>
+		</link>
+		<link>
+			<name>.link4</name>
+			<type>2</type>
+			<location>E:/wamp/www/testyii/.metadata/.plugins/com.zend.php.core/__language__/77e32966</location>
+		</link>
+		<link>
+			<name>.link5</name>
+			<type>2</type>
+			<location>E:/wamp/www/testyii/.metadata/.plugins/com.zend.php.core/__language__/bcec3e53</location>
+		</link>
+	</linkedResources>
+</projectDescription>
