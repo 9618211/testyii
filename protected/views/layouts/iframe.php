@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>简易后台</title>
+<!--                       CSS                       -->
+<!-- Reset Stylesheet -->
+<link rel="stylesheet" href="/statics/css/index/reset.css" type="text/css" media="screen" />
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="/statics/css/index/style.css" type="text/css" media="screen" />
+<!-- Invalid Stylesheet. This makes stuff look pretty. Remove it if you want the CSS completely valid -->
+<link rel="stylesheet" href="/statics/css/index/invalid.css" type="text/css" media="screen" />
+<!--                       Javascripts                       -->
+<!-- jQuery -->
+<script type="text/javascript" src="/statics/js/index/jquery-1.3.2.min.js"></script>
+<!-- jQuery Configuration -->
+<script type="text/javascript" src="/statics/js/index/simpla.jquery.configuration.js"></script>
+<!-- Facebox jQuery Plugin -->
+<script type="text/javascript" src="/statics/js/index/facebox.js"></script>
+<!-- jQuery WYSIWYG Plugin -->
+<script type="text/javascript" src="/statics/js/index/jquery.wysiwyg.js"></script>
+<!-- jQuery Datepicker Plugin -->
+<script type="text/javascript" src="/statics/js/index/jquery.datePicker.js"></script>
+<script type="text/javascript" src="/statics/js/index/jquery.date.js"></script>
+</head>
+<body>
+<div id="body-wrapper">
+  <!-- Wrapper for the radial gradient background -->
+  <div id="sidebar">
+    <div id="sidebar-wrapper">
+      <!-- Sidebar with logo and menu -->
+      <h1 id="sidebar-title"><a href="#">简易后台</a></h1>
+      <!-- Logo (221px wide) -->
+      <a href="#"><img id="logo" src="/statics/images/index/logo.png" alt="Simpla Admin logo" /></a>
+      <!-- Sidebar Profile links -->
+      <div id="profile-links"> Hello, <a href="#" title="Edit your profile">865171</a>, you have <a href="#messages" rel="modal" title="3 Messages">3 Messages</a><br />
+        <br />
+        <a href="#" title="View the Site">View the Site</a> | <a href="#" title="Sign Out">Sign Out</a> </div>
+      <ul id="main-nav">
+        <!-- Accordion Menu -->
+        <li> <a href="#" class="nav-top-item no-submenu">
+          <!-- Add the class "no-submenu" to menu items with no sub menu -->
+          Dashboard </a> </li>
+        <li> <a href="#" class="nav-top-item current">
+          <!-- Add the class "current" to current menu item -->
+          二手房管理 </a>
+          <ul>
+            <li><a href="#">二手房管理</a></li>
+            <li><a class="current" href="#">添加房源</a></li>
+            <!-- Add class "current" to sub menu items also -->
+          <!--   <li><a href="#">Manage Comments</a></li>
+            <li><a href="#">Manage Categories</a></li> -->
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 租房管理 </a>
+          <ul>
+            <li><a href="#">租房管理</a></li>
+            <li><a href="#">租房发布</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 写字楼管理 </a>
+          <ul>
+            <li><a href="#">写字楼管理</a></li>
+            <li><a href="#">创建写字楼</a></li>
+         <!--    <li><a href="#">Manage Albums</a></li>
+            <li><a href="#">Gallery Settings</a></li> -->
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 商铺管理 </a>
+          <ul>
+            <li><a href="#">商铺管理</a></li>
+            <li><a href="#">添加商铺</a></li>
+         <!--    <li><a href="#">Calendar Settings</a></li> -->
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 资讯管理 </a>
+          <ul>
+            <li><a href="#">资讯管理</a></li>
+            <li><a href="#">添加资讯</a></li>
+            <li><a href="#">栏目管理</a></li>
+           <!--  <li><a href="#">Users and Permissions</a></li> -->
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item">   </a>
+          <ul>
+            <li><a href="#">管理员管理</a></li>
+            <li><a href="#">角色管理</a></li>
+            <li><a href="#">权限管理</a></li>
+           <!--  <li><a href="#">Users and Permissions</a></li> -->
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 会员管理 </a>
+          <ul>
+            <li><a href="#">普通会员</a></li>
+            <li><a href="#">经纪人</a></li>
+            <li><a href="#">意向管理</a></li>
+           <!--  <li><a href="#">Users and Permissions</a></li> -->
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 其它管理 </a>
+          <ul>
+            <li><a href="#">城区管理</a></li>
+            <li><a href="#">建筑高度</a></li>
+            <li><a href=" <?php echo Yii::app()->request->baseUrl;?>/
+architectural">建筑结构</a></li>
+            <li><a href="decoration">装修情况</a></li>
+            <li><a href="#">房子状态</a></li>
+            <li><a href="#">房屋政策</a></li>
+            <li><a href="#">租房配套</a></li>
+           <!--  <li><a href="#">Users and Permissions</a></li> -->
+          </ul>
+        </li>
+      </ul>
+      <!-- End #main-nav -->
+    </div>
+  </div>
+</div>
+<?php echo $content; ?>
+</body>
+</html>
